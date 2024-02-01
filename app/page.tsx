@@ -31,22 +31,7 @@ export default function Home() {
     <>
       <Header />
       <MainStyled>
-        <SectionLayout>
-          <HorizontalWrapper height="40rem" direction={-1400}>
-            <div className="cards">
-              {cards.map((card, index) => {
-                return (
-                  <Card
-                    key={index}
-                    title={card.title}
-                    description={card.description}
-                    image={card.image}
-                  />
-                );
-              })}
-            </div>
-          </HorizontalWrapper>
-        </SectionLayout>
+       
 
         <Fullpage />
 
@@ -71,31 +56,13 @@ export default function Home() {
           <TextSection />
         </SectionLayout>
 
-        <SectionLayout>
-          <motion.div
-            className="video"
-            ref={video}
-            style={{
-              opacity,
-              scale,
-            }}
-          >
-            <iframe
-              src="https://www.youtube.com/embed/OuaUjkZhfqQ"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
-          </motion.div>
-        </SectionLayout>
+       
 
         <SectionLayout>
           <ZoomSection></ZoomSection>
         </SectionLayout>
 
-        <SectionLayout>
-          <TextSection />
-        </SectionLayout>
+       
 
         <Footer />
       </MainStyled>

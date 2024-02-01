@@ -1,8 +1,8 @@
-import monkey from "/public/images/monkey.png";
-import bulb from "/public/images/bulb_tree.png";
-import smoke_2 from "/public/images/monkey.png";
-import smoke_head from "/public/images/smoke_head.png";
-import smoke from "/public/images/smoke_2.png";
+import hero1 from "/public/images/hero1.png";
+import card1 from "/public/images/card1.jpeg";
+import card2 from "/public/images/card2.jpeg";
+import card3 from "/public/images/card3.jpeg";
+import card4 from "/public/images/card4.jpeg";
 import bitcoin from "/public/images/bitcoin.jpg";
 
 export const cards = [
@@ -17,28 +17,28 @@ export const cards = [
     id: 2,
     title: "Bulb Tree",
     description: "A tree that grows bulbs.",
-    image: bulb,
+    image: card1,
     link: "/bulb-tree",
   },
   {
     id: 3,
     title: "Smoke",
     description: "A smoke that is a byproduct of fire.",
-    image: smoke,
+    image: card2,
     link: "/smoke",
   },
   {
     id: 4,
     title: "Smoke Head",
     description: "A smoke that is a byproduct of fire.",
-    image: smoke_head,
+    image: card3,
     link: "/smoke-head",
   },
   {
     id: 5,
     title: "Smoke 2",
     description: "A smoke that is a byproduct of fire.",
-    image: smoke_2,
+    image: card4,
     link: "/smoke-2",
   },
 ];

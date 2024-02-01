@@ -58,7 +58,7 @@ function Header() {
       <div className="header-content">
         <div className="text-content">
           <h1 className={abril.className}>
-            Buy, collect, and sell extraordinary NFTs
+            Escape, Evolve, Conquer and Prevail!
           </h1>
           <p>
             Acquire expertise in navigating the rapidly evolving and
@@ -85,7 +85,7 @@ function Header() {
             }}
           >
             <Image
-              src="/images/monkey.png"
+              src="/images/hero1.png"
               width={600}
               height={600}
               alt="hero"
