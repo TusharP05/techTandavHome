@@ -34,24 +34,13 @@ function Header() {
     <HeaderStyled ref={hero}>
       <nav>
         <div className="logo">
-          <Image src={logo1} alt="logo" width={50} bg-color="white" />
+          <Image src={logo1} alt="logo" width={40} style={{ backgroundColor: 'white' , borderRadius: '20%'} } />
           <h2>DrugEsc</h2>
         </div>
       
         <ul className="nav-items">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Auctions</a>
-          </li>
-          <li>
-            <a href="#">Marketplace</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <Button name="Connect Wallet" icon={<FaWallet />} />
+       
+          <Button name="Take a Tour!" icon={<FaRocket />} />
         </ul>
       </nav>
       <div className="header-content">
@@ -69,7 +58,7 @@ function Header() {
               color="#fff"
               border="1px solid #f2994a"
               icon={<FaRocket />}
-              externalUrl= "https://gamifying-drug-addiction-education.vercel.app/"   
+              externalUrl= "https://drugesc.vercel.app/"   
 
             />
           

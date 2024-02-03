@@ -2,7 +2,7 @@
 
 import React from "react";
 import styled from "styled-components";
-import logo from "/public/logo.png";
+import logo1 from "/public/logo1.png";
 import footer from "../utils/footer";
 import Image from "next/image";
 
@@ -20,7 +20,7 @@ function Footer() {
       <nav>
         <div className="logo-con">
           <div className="logo">
-            <Image src={logo} width={36} alt="logo" />
+            <Image src={logo1} width={40} alt="logo" style={{ backgroundColor: 'white' , borderRadius: '20%'} } />
             <h2>DrugEsc</h2>
           </div>
           <div className="input">
