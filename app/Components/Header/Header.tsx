@@ -58,7 +58,7 @@ function Header() {
               color="#fff"
               border="1px solid #f2994a"
               icon={<FaRocket />}
-              externalUrl= "https://drugesc.vercel.app/"   
+              externalUrl= "https://drugescape.vercel.app/"   
 
             />
           
