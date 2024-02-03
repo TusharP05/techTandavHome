@@ -42,26 +42,9 @@ function TextSection() {
   return (
     <TextSectionStyled>
       <TextWrapper>
-        Lorem ipsum dolor, sit amet consectetur adipisicing.
+      Breaking Chains, Embracing Freedom: DrugEsc, Your Path to Recovery!
       </TextWrapper>
-      <TextWrapper>
-        Lorem ipsum dolor, sit amet consectetur adipisicing.
-      </TextWrapper>
-      <TextWrapper>
-        Lorem ipsum dolor, sit amet consectetur adipisicing.
-      </TextWrapper>
-      <TextWrapper>
-        Lorem ipsum dolor, sit amet consectetur adipisicing.
-      </TextWrapper>
-      <TextWrapper>
-        Lorem ipsum dolor, sit amet consectetur adipisicing.
-      </TextWrapper>
-      <TextWrapper>
-        Lorem ipsum dolor, sit amet consectetur adipisicing.
-      </TextWrapper>
-      <TextWrapper>
-        Lorem ipsum dolor, sit amet consectetur adipisicing.
-      </TextWrapper>
+     
     </TextSectionStyled>
   );
 }

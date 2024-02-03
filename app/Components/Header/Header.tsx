@@ -2,7 +2,8 @@
 
 import React, { useRef } from "react";
 import Image from "next/image";
-import logo from "../../../public/logo.png";
+import logo1 from "../../../public/logo1.png";
+
 import Button from "../Button/Button";
 import styled from "styled-components";
 import { FaRocket, FaWallet } from "react-icons/fa";
@@ -33,12 +34,10 @@ function Header() {
     <HeaderStyled ref={hero}>
       <nav>
         <div className="logo">
-          <Image src={logo} alt="logo" width={36} />
-          <h2>Logo</h2>
+          <Image src={logo1} alt="logo" width={50} bg-color="white" />
+          <h2>DrugEsc</h2>
         </div>
-        <div className="input">
-          <input type="text" placeholder="Search" />
-        </div>
+      
         <ul className="nav-items">
           <li>
             <a href="#">Home</a>
@@ -61,10 +60,7 @@ function Header() {
             Escape, Evolve, Conquer and Prevail!
           </h1>
           <p>
-            Acquire expertise in navigating the rapidly evolving and
-            exhilarating NFT landscape, unveil the highly sought-after NFTs, and
-            comprehend the possible advantages and disadvantages of acquiring,
-            amassing, and vending these exceptional digital assets.
+          Guiding You Towards a Brighter Tomorrow:- Unleashing Hope, Transforming Lives, and Breaking Free from the Chains of Addiction.
           </p>
           <div className="buttons">
             <Button
@@ -73,8 +69,10 @@ function Header() {
               color="#fff"
               border="1px solid #f2994a"
               icon={<FaRocket />}
+              externalUrl= "https://gamifying-drug-addiction-education.vercel.app/"   
+
             />
-            <Button name="Learn More" />
+          
           </div>
         </div>
         <div className="image-content">

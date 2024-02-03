@@ -55,8 +55,8 @@ export default function Home() {
         <SectionLayout>
           <TextSection />
         </SectionLayout>
-
        
+      
 
         <SectionLayout>
           <ZoomSection></ZoomSection>

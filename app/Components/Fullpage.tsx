@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
 
+
 import { motion, useScroll, useTransform } from "framer-motion";
 
 function Fullpage() {
@@ -33,7 +34,7 @@ function Fullpage() {
         }}
       >
         <Image
-          src="/images/rover.jpg"
+          src="/images/card4.jpeg"
           alt="monkey"
           fill={true}
           style={{

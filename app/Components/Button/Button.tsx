@@ -9,6 +9,8 @@ interface ButtonProps {
   background?: string;
   color?: string;
   border?: string;
+  // Add a new prop for the external URL
+  externalUrl?: string;
 }
 
 function Button({
@@ -17,7 +19,15 @@ function Button({
   background = "var(--color-bg)",
   color,
   border,
+  externalUrl,
 }: ButtonProps) {
+  const handleClick = () => {
+    // Check if an external URL is provided before redirecting
+    if (externalUrl) {
+      window.location.href = externalUrl;
+    }
+  };
+
   return (
     <ButtonStyled
       style={{
@@ -25,6 +35,7 @@ function Button({
         color: color,
         border: border,
       }}
+      onClick={handleClick} // Attach the click event handler
     >
       {icon && icon}
       {name}

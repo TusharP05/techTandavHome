@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 import hover3d from "../utils/hover";
 import styled from "styled-components";
 import Image from "next/image";
+import TextSection from "../TextSection";
 
 function ZoomSection() {
   const hero = useRef<HTMLDivElement>(null);
@@ -52,7 +53,7 @@ function ZoomSection() {
         />
 
         <Image
-          src="/images/arm2.jpg"
+          src="/images/game1.jpeg"
           alt="bulb tree"
           className="monkey"
           width={500}
@@ -66,7 +67,7 @@ function ZoomSection() {
         />
 
         <Image
-          src="/images/arm.jpg"
+          src="/images/game2.jpeg"
           alt="bulb tree"
           className="smoke"
           width={500}
@@ -77,8 +78,13 @@ function ZoomSection() {
             transform: hover3.transform,
             transition: hover3.transition,
           }}
+          
         />
+            <h2 style={{ color: 'red', zIndex: 1 }}>Hello</h2>
+
+
       </div>
+
     </ZoomStyled>
   );
 }
